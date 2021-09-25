@@ -84,17 +84,17 @@ int main()
         else if(tortuga == &camino[69] && liebre != &camino[69])
         {
             cout << "La tortuga ha ganado. VIVA";
-            opcion == 2;
+            opcion = 2;
         }
         else if(tortuga != &camino[69] && liebre == &camino[69])
         {
             cout << "La liebre gana. Ya ni modo";
-            opcion == 2;
+            opcion = 2;
         }
         else if(tortuga == &camino[69] && liebre== &camino[69])
         {
             cout << "Un empate, quizas para la proxima";
-            opcion == 2;
+            opcion = 2;
         }
         system("PAUSE");
     }
